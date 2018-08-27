@@ -1,0 +1,124 @@
+/*通用样式*/
+body,pre,div,p,ul,ol,li,h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+	width: 1920px;
+	font: 20px "微软雅黑",Arial,Helvetica,sans-serif;
+}
+.lf {
+	float: left;
+}
+.rt {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+
+
+/*1.页面头部*/
+#top {
+	width: 1920px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.2);
+	position: fixed;
+	z-index: 100;
+}
+#top_main {
+	width: 1460px;
+	/*height: 100px;*/
+	margin: 0 auto;
+}
+/*左侧logo*/
+#top_main div.top_left img {
+	margin-top: 20px;
+}
+/*右侧：列表*/
+#top_main div.top_right ul {
+	line-height: 100px;
+	margin-right: -40px;
+}
+#top_main div.top_right ul li {
+	float: left;
+	margin-right: 40px;
+}
+#top_main div.top_right ul li a.checked {
+	color: #2FACCF;
+}
+#top_main div.top_right ul li a {
+	color: #FFF;
+}
+#top_main div.top_right ul li a:hover {
+	color: #2FACCF;
+}
+
+
+
+/*3.花店地址信息*/
+#foot_ip {
+	width: 1920px;
+	padding-top: 90px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #F0F2F5;
+}
+#foot_ip p.top {
+	text-align: center;
+	line-height: 40px;
+	color: #898989;
+}
+#foot_ip div.foot_ip_bottom p {
+	text-align: center;
+	line-height: 40px;
+	color: #898989;
+}
+#foot_ip img {
+	display: block;
+	margin: 50px auto 130px;
+	height: 340px;
+	width: 530px;
+}
+
+
+/*4.底部*/
+#footer {
+	width: 100%;
+	background-color: #F5F5F5;
+	height: 190px;
+	padding-top: 35px;
+}
+#footer_top {
+	width: 160px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footer_bottom {
+	width: 480px;
+	font-size: 18px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footer_bottom a {
+	color: #62A8EA;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	display: inline-block;
+}
+#footer_bottom a:first-child {
+	margin-right: 20px;
+}
+#footer_bottom a:hover {
+	text-decoration: underline;
+}
+#footer_bottom p {
+	text-align: center;
+	color: #898989;
+	font-size: 18px;
+	line-height: 33px;
+}

@@ -1,0 +1,245 @@
+/*通用样式*/
+div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dd,dl,dt,input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.lf {
+	float: left;
+}
+.rt {
+	float: right;
+}
+
+
+
+/*nav样式*/
+#top {
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #D9D9D9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 200;
+	background-color: #FFF;
+}
+#nav {
+	width: 1460px;
+	height: 100px;
+	margin: 0 auto;
+}
+#nav ul {
+	float: right;
+	height: 100%;
+	margin-right: -40px;
+}
+#nav ul li {
+	float: left;
+	height: 100%;
+	margin-right: 40px;
+}
+#nav ul li a {
+	line-height: 100px;
+	color: #2A333C;
+}
+#nav ul li a:hover {
+	color: #16B0DC;
+}
+#nav ul li a.checked {
+	color: #16B0DC;
+}
+
+
+
+/*第二部分：花言花语*/
+#main {
+	width: 100%;
+	min-height: 3600px;
+	background-color: #F1F1F1;
+	padding-top: 140px;
+	padding-bottom: 40px;
+}
+#main div.main_box {
+	width: 1460px;
+	min-height: 500px;
+	margin: 0 auto;
+}
+#main div.main_box_left {
+	width: 1100px;
+	min-height: 500px;
+	background-color: #FFF;
+	float: left;
+	padding: 40px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+}
+#main div.main_box_left h1 {
+	font-size: 40px;
+	font-weight: normal;
+	color: #44535A;
+}
+#main div.main_box_left span {
+	display: inline-block;
+	font-size: 22px;
+	width: 100%;
+	color: #A3AFB7;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #F0F2F5;
+}
+#main div.main_box_left span i {
+	font-size: 30px;
+}
+#main div.main_box_left p {
+	font-size: 24px;
+	color: #222222;
+	font-weight: 300;
+	margin-top: 60px;
+}
+#main div.main_box_left img {
+	width: 1020px;
+	margin-top: 26px;
+}
+#main div.main_box_left img:nth-child(8) {
+	/*display: block;*/
+	margin-bottom: 120px;
+}
+#main div.main_box_left div {
+
+	padding-top: 30px;
+	border-top: 1px solid #F0F2F5;
+}
+#main div.main_box_left div input {
+	width: 230px;
+	height: 60px;
+	background-color: #FFF;
+	border: 1px solid #E4EAEC;
+	border-radius: 30px;
+	font-size: 20px;
+	color: #8B838F;
+}
+#main div.main_box_left div input:hover {
+	color: #16B0E2;
+	border-color: #16B0E2;
+}
+#main div.main_box_right {
+	float: right;
+	width: 330px;
+	min-height: 100px;
+	background-color: #FFF;
+	padding: 27px;
+	box-sizing: border-box;
+}
+#main div.main_box_right input {
+	width: 276px;
+	height: 45px;
+	border-radius: 45px;
+	border: 1px solid #E4EAEC;
+	margin-bottom: 28px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+#main div.main_box_right dl {
+	padding-top: 27px;
+	padding-bottom: 27px;
+	border-top:1px solid #F0F2F5;
+	border-bottom: 1px solid #F0F2F5;
+}
+#main div.main_box_right dt {
+	font-size: 24px;
+	color: #8A898D;
+	margin-bottom: 15px;
+}
+#main div.main_box_right dd {
+	width: 276px;
+	height: 55px;
+	border: 1px solid #F0F2F5;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+#main div.main_box_right dd:nth-child(3) {
+	border-top: 0;
+	border-bottom: 0;
+}
+#main div.main_box_right dd a {
+	line-height: 55px;
+	color: #515960;
+	font-size: ;
+}
+#main div.main_box_right a:hover {
+	text-decoration: underline;
+	color: #16B0DC;
+}
+#main div.main_box_right>a {
+	display: inline-block;
+	color: #515960;
+	font-size: 22px;
+	padding-top: 30px;
+	padding-bottom: 16px;
+}
+
+
+/*空白部分*/
+div.kong {
+	width: 100%;
+	height: 30px;
+}
+
+
+/*第三部分：底部*/
+/*6.底部*/
+#footer {
+	width: 100%;
+	background-color: #F5F5F5;
+	height: 190px;
+	padding-top: 35px;
+}
+#footer_top {
+	width: 185px;
+	height: 40px;
+	margin: 0 auto;
+}
+#footer_top a {
+	display: inline-block;
+	margin-right: 25px;
+	color: #83B944;
+}
+#footer_top a i {
+	font-size: 40px;
+}
+#footer_top a:nth-child(2) {
+	color: #62A8EA;
+}
+#footer_top a:nth-child(3) {
+	margin-right: 0;
+	color: #62A8EA;
+}
+#footer_bottom {
+	width: 480px;
+	font-size: 18px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footer_bottom a {
+	color: #62A8EA;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	display: inline-block;
+}
+#footer_bottom a:first-child {
+	margin-right: 20px;
+}
+#footer_bottom a:hover {
+	text-decoration: underline;
+}
+#footer_bottom p {
+	text-align: center;
+	color: #898989;
+	font-size: 18px;
+	line-height: 33px;
+}
